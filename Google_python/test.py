@@ -3,7 +3,7 @@ import gdata.docs.service
 # Create a client class which will make HTTP requests with Google Docs server.
 client = gdata.docs.service.DocsService()
 # Authenticate using your Google Docs email address and password.
-client.ClientLogin('abhisheksimhadri@gmail.com', 'aumsairam')
+client.ClientLogin('', '')
 
 # Query the server for an Atom feed containing a list of your documents.
 documents_feed = client.GetDocumentListFeed()
