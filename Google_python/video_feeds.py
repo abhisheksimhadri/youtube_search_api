@@ -15,10 +15,10 @@ yt_service = gdata.youtube.service.YouTubeService()
 yt_service.ssl = True
 
 # A complete client login request & authentication
-yt_service.email = 'abhisheksimhadri@gmail.com'
-yt_service.password = 'aumsairam'
-yt_service.source = 'Youtube_Analysis'
-yt_service.developer_key = 'AI39si48PQ76Gz7KFtup_VoIs2VlZsyptcXurvUfXxeVk2zEOC37f54ipFglI9f1E2CFgGqo9CqWunk4SE06JLlpDPMo7S_FnA'
+yt_service.email = ''
+yt_service.password = ''
+yt_service.source = ''
+yt_service.developer_key = ''
 yt_service.ProgrammaticLogin()
 
 #storing data in arrays
